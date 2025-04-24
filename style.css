@@ -1,0 +1,101 @@
+/* File: assets/css/style.css */
+
+/* Color Theme */
+:root {
+    --primary-color: #ff512f;
+    --secondary-color: #dd2476;
+    --accent-color: #4b4b4b;
+    --background-color: #f5f7fa;
+    --text-color: #333;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+  }
+  
+  .site-header {
+    background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo-area {
+    align-items: center;
+  }
+  
+  .logo-area h1 {
+    font-size: 1.8rem;
+    font-weight: 700;
+  }
+  
+  .nav-link {
+    color: white;
+    font-weight: 600;
+  }
+  
+  .nav-link:hover {
+    color: var(--accent-color);
+  }
+  
+  .nav-link.active {
+    color: var(--accent-color);
+  }
+  
+  .intro {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .intro h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+  
+  .club-card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .club-card:hover {
+    transform: scale(1.03);
+  }
+  
+  .club-card img {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .btn-theme {
+    background-color: var(--secondary-color);
+    color: white;
+    border: none;
+  }
+  
+  .btn-theme:hover {
+    background-color: var(--primary-color);
+    color: white;
+  }
+  
+  .btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+  }
+  
+  .btn-danger:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+  }
+  
+  .footer {
+    background-color: var(--accent-color);
+    color: #ddd;
+  }
+  
